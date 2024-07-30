@@ -21,7 +21,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 global.devs = "254739937062,254710772666";
 global.sudo = process.env.SUDO_NUMBERS || "254739937062,254710772666";
 global.sudo = process.env.SUDO || "254739937062,254710772666";
-global.owner = process.env.OWNER_NUMBER || "254739937062,254710772666";
+global.owner = process.env.OWNER_NUMBER || "255617036603";
 global.style = process.env.STYLE || "1";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -55,7 +55,7 @@ module.exports = {
   author: process.env.STICKER_AUTHOR || "𝘽𝙇𝘼𝘾𝙆-𝙋𝘼𝙉𝙏𝙃𝙀𝙍-𝙈𝘿",
   packname: process.env.STICKER_NAME || "🐯",
   botname: process.env.BOT_NAME || "𝘽𝙇𝘼𝘾𝙆-𝙋𝘼𝙉𝙏𝙃𝙀𝙍-𝙈𝘿",
-  ownername: process.env.OWNER_NAME || "𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑨𝒅𝒂𝒎𝒔",
+  ownername: process.env.OWNER_NAME || "JOSIA",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "neLbXXrp8bSDcohnp1CW5UEa",
